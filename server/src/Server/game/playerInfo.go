@@ -12,6 +12,8 @@ func init() {
 	RegistCmd("getRankList", DoNothing)
 	RegistCmd("getPlayerList", DoNothing)
 }
+
+//DoNothing
 func DoNothing(context IPlayerMsgContext) {
 }
 

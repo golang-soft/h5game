@@ -1,10 +1,13 @@
 {
 	"ver":"1.0",
 	"redis":{
-		"addr":"127.0.0.1:6379",
+		"addr":"127.0.0.1:6389",
 		"password":"",
 		"poolsize":10,
 		"dbs":[0,1,2,3,4]
+	},
+	"db":{
+		"game":"root:123456@tcp(10.10.20.16:3306)/tcg_new"
 	},
 	"design":{
 		"path":"../config/csv/"
@@ -20,7 +23,7 @@
 		"remote":{
 
 		},
-		
+
 		"_comment": "当前进程启动的所有服务配置,remoteAddr空表示本进程",
 		"local":[
 			{
@@ -59,6 +62,18 @@
 					}
 			},
 			{
+					"serviceName":"gate2",
+					"serviceType":"gate",
+					"remoteAddr":"127.0.0.1:8072",
+					"conf":{
+						"MaxConnNum":1000,
+						"WsAddr":":7203",
+						"WsAddrOut":"127.0.0.1:7203",
+						"TcpAddr":":7202",
+						"TcpAddrOut":"127.0.0.1:7202"
+					}
+			},
+			{
 					"serviceName":"game1",
 					"serviceType":"game",
 					"remoteAddr":""
@@ -69,7 +84,6 @@
 					"remoteAddr":""
 			}
 		]
-	}	
+	}
 
 }
-	

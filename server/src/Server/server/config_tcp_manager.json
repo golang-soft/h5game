@@ -23,14 +23,14 @@
 		"local":[
 
 			{
-					"serviceName":"center",
-					"serviceType":"center",
-					"remoteAddr":"127.0.0.1:8090"
+				"serviceName":"center",
+				"serviceType":"center",
+				"remoteAddr":"127.0.0.1:8090"
 			},
 			{
-					"serviceName":"session",
-					"serviceType":"session",
-					"remoteAddr":"127.0.0.1:8091"
+				"serviceName":"session",
+				"serviceType":"session",
+				"remoteAddr":"127.0.0.1:8091"
 			},
 			{
 				"serviceName":"lobby",

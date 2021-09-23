@@ -28,10 +28,12 @@ type Robot struct {
 	wg     sync.WaitGroup
 }
 
+//NewRobot
 func NewRobot(account, pwd string) *Robot {
 	return &Robot{account: account, pwd: pwd}
 }
 
+//Start
 func (robot *Robot) Start() {
 	robot.wg.Add(1)
 	if !robot.Login() {
@@ -42,6 +44,7 @@ func (robot *Robot) Start() {
 	robot.wg.Wait()
 }
 
+//Login
 func (robot *Robot) Login() bool {
 	var addr = *host
 	fmt.Println("login...", addr)
@@ -80,6 +83,7 @@ func (robot *Robot) newAgent(conn network.Conn) network.Agent {
 	return robot.agent
 }
 
+//ConnectGate
 func (robot *Robot) ConnectGate() {
 	fmt.Println("ConnectGate:", robot.gateAddr)
 	if *nettype == "ws" {
@@ -96,12 +100,14 @@ func (robot *Robot) ConnectGate() {
 
 }
 
+//OnConnected
 func (robot *Robot) OnConnected() {
 	fmt.Println("OnConnected...")
 
 	robot.SendMsg("login", &gameproto.PlatformUser{PlatformUid: int32(robot.uid), Key: robot.key})
 }
 
+//EnterGame
 func (robot *Robot) EnterGame() {
 	fmt.Println("EnterGame...")
 	robot.SendMsg("s_chat", &gameproto.C2S_WorldChatMsg{Data: "hello robot"})
@@ -109,6 +115,7 @@ func (robot *Robot) EnterGame() {
 	//robot.SendMsg(gameproto.Chat, byte(gameproto.C2S_WorldChat), &gameproto.C2S_WorldChatMsg{"world"})
 }
 
+//OnMsgRecv
 func (robot *Robot) OnMsgRecv(channel byte, msgId interface{}, data []byte) {
 	c := 0 //gameproto.ChannelType(channel)
 	fmt.Println("OnMsgRecv:", c, " msg:", msgId, " data:", len(data))
@@ -180,6 +187,7 @@ func (robot *Robot) OnMsgRecv(channel byte, msgId interface{}, data []byte) {
 	*/
 }
 
+//SendMsg
 func (robot *Robot) SendMsg(msgId interface{}, pb proto.Message) {
 	data, err := gp.Marshal(pb)
 	if err != nil {

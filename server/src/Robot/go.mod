@@ -3,6 +3,7 @@ module robotTest
 go 1.13
 
 require (
+	comm v0.0.0-00010101000000-000000000000
 	gameproto v0.0.0-00010101000000-000000000000
 	github.com/gogo/protobuf v1.3.1
 	github.com/gorilla/websocket v1.4.2 // indirect
