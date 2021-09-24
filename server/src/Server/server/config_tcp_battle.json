@@ -25,10 +25,11 @@
 
 		"_comment": "当前进程启动的所有服务配置,remoteAddr空表示本进程",
 		"local":[
+
 			{
-					"serviceName":"game1",
-					"serviceType":"game",
-					"remoteAddr":"127.0.0.1:9501"
+				"serviceName":"battle1",
+				"serviceType":"battle",
+				"remoteAddr":"127.0.0.1:9401"
 			}
 		]
 	}
