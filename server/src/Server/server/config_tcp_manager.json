@@ -18,10 +18,8 @@
 			"session":"127.0.0.1:8091",
 			"lobby":"127.0.0.1:8092"
 		},
-
 		"_comment": "当前进程启动的所有服务配置,remoteAddr空表示本进程",
 		"local":[
-
 			{
 				"serviceName":"center",
 				"serviceType":"center",

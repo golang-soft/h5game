@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6f5e79f9-5338-43d3-94b3-94c7fbe09650" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/h5game.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Server/server/config_tcp_battle.json" afterDir="false" />
+    <list default="true" id="6f5e79f9-5338-43d3-94b3-94c7fbe09650" name="Default Changelist" comment="调整配置文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/server/config_tcp_game.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/server/config_tcp_game.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Robot/robotTest/agent.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Robot/robotTest/agent.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Robot/robotTest/robot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Robot/robotTest/robot.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/server/config_tcp_manager.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/server/config_tcp_manager.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,6 +226,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="调整配置文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整配置文件" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
     <environment>
@@ -255,32 +256,29 @@
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state x="687" y="196" key="FileChooserDialogImpl/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632408863677" />
-    <state width="1867" height="281" key="GridCell.Tab.0.bottom" timestamp="1632449914486">
+    <state width="1867" height="281" key="GridCell.Tab.0.bottom" timestamp="1632451381054">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632449914486" />
-    <state width="1867" height="281" key="GridCell.Tab.0.center" timestamp="1632449914486">
+    <state width="1867" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632451381054" />
+    <state width="1867" height="281" key="GridCell.Tab.0.center" timestamp="1632451381054">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.center/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632449914486" />
-    <state width="1867" height="281" key="GridCell.Tab.0.left" timestamp="1632449914486">
+    <state width="1867" height="281" key="GridCell.Tab.0.center/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632451381054" />
+    <state width="1867" height="281" key="GridCell.Tab.0.left" timestamp="1632451381054">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.left/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632449914486" />
-    <state width="1867" height="281" key="GridCell.Tab.0.right" timestamp="1632449914486">
+    <state width="1867" height="281" key="GridCell.Tab.0.left/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632451381054" />
+    <state width="1867" height="281" key="GridCell.Tab.0.right" timestamp="1632451381054">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.right/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632449914486" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/Robot/robotTest/robot.go</url>
-          <line>78</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1867" height="281" key="GridCell.Tab.0.right/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632451381054" />
+    <state x="452" y="168" key="Vcs.Push.Dialog.v2" timestamp="1632450045068">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="452" y="168" key="Vcs.Push.Dialog.v2/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632450045068" />
+    <state x="677" y="395" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1632450961226">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="677" y="395" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632450961226" />
   </component>
 </project>

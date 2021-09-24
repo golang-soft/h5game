@@ -15,6 +15,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 )
 
+//Robot
 type Robot struct {
 	account string
 	pwd     string
@@ -23,7 +24,7 @@ type Robot struct {
 	uid      uint64
 	key      string
 
-	client network.INetClient
+	client network.TCPClient
 	agent  *Agent
 	wg     sync.WaitGroup
 }
@@ -87,11 +88,11 @@ func (robot *Robot) newAgent(conn network.Conn) network.Agent {
 func (robot *Robot) ConnectGate() {
 	fmt.Println("ConnectGate:", robot.gateAddr)
 	if *nettype == "ws" {
-		robot.client = new(network.WSClient)
+		//robot.client = new(network.WSClient)
 	} else {
 		c := new(network.TCPClient)
 		c.LittleEndian = true
-		robot.client = c
+		robot.client = *c
 	}
 	robot.client.Set(robot.gateAddr, robot.newAgent)
 

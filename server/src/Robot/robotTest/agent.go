@@ -2,6 +2,8 @@ package main
 
 import (
 	"github.com/magicsea/ganet/network"
+	"net"
+
 	//	"io/ioutil"
 	"log"
 	//	"net/http"
@@ -10,6 +12,7 @@ import (
 	"encoding/json"
 )
 
+//JsData
 type JsData struct {
 	Id  string `json:Id`
 	Msg string `json:Msg`
@@ -21,11 +24,13 @@ func newAgent(conn network.Conn) network.Agent {
 	return Client
 }
 
+//Agent
 type Agent struct {
 	conn      network.Conn
 	msgHandle func(channel byte, msgId interface{}, data []byte)
 }
 
+//Run
 func (a *Agent) Run() {
 	log.Println("Agent.run")
 	for {
@@ -44,10 +49,11 @@ func (a *Agent) Run() {
 	}
 }
 
+//OnClose
 func (a *Agent) OnClose() {}
 
-/*
-func (a *Agent) WriteMsg(channel byte, msgId byte, msg []byte) {
+//WriteMsg
+func (a *Agent) WriteMsg0(channel byte, msgId byte, msg []byte) {
 
 	data := []byte{channel, msgId}
 	data = append(data, msg...)
@@ -57,7 +63,8 @@ func (a *Agent) WriteMsg(channel byte, msgId byte, msg []byte) {
 	}
 
 }
-*/
+
+//WriteMsg
 func (a *Agent) WriteMsg(msgID interface{}, rawmsg []byte) {
 
 	var jd = JsData{Id: msgID.(string), Msg: string(rawmsg)}
@@ -73,18 +80,22 @@ func (a *Agent) WriteMsg(msgID interface{}, rawmsg []byte) {
 
 }
 
-//func (a *Agent) LocalAddr() net.Addr {
-//return a.conn.LocalAddr()
-//}
+//LocalAddr
+func (a *Agent) LocalAddr() net.Addr {
+	return a.conn.LocalAddr()
+}
 
-//func (a *Agent) RemoteAddr() net.Addr {
-//	return a.conn.RemoteAddr()
-//}
+//RemoteAddr
+func (a *Agent) RemoteAddr() net.Addr {
+	return a.conn.RemoteAddr()
+}
 
+//Close
 func (a *Agent) Close() {
 	a.conn.Close()
 }
 
+//Destroy
 func (a *Agent) Destroy() {
 	a.conn.Destroy()
 }
