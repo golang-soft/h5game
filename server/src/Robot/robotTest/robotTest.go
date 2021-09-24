@@ -8,7 +8,7 @@ import (
 
 var acc = flag.String("u", "magicse_1", "account")
 var host = flag.String("host", "http://127.0.0.1:9900", "login url")
-var nettype = flag.String("net", "ws", "net type:tcp or ws")
+var nettype = flag.String("net", "tcp", "net type:tcp or ws")
 var prototype = flag.String("proto", "json", "proto type:json or pb")
 
 func main() {

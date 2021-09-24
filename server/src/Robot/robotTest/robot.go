@@ -76,9 +76,9 @@ func (robot *Robot) Login() bool {
 	return result.GetResult() == int32(gameproto.OK)
 }
 
-func (robot *Robot) newAgent(conn network.Conn) network.Agent {
+func (robot *Robot) newAgent(conn *network.TCPConn) network.Agent {
 	robot.agent = new(Agent)
-	robot.agent.conn = conn
+	robot.agent.conn = *conn
 	robot.agent.msgHandle = robot.OnMsgRecv
 	robot.OnConnected()
 	return robot.agent
@@ -96,7 +96,7 @@ func (robot *Robot) ConnectGate() {
 	}
 	robot.client.Set(robot.gateAddr, robot.newAgent)
 
-	//robot.client.LittleEndian = true
+	robot.client.LittleEndian = true
 	robot.client.Start()
 
 }

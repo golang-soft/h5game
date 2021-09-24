@@ -11,6 +11,7 @@ import (
 	"github.com/AsynkronIT/protoactor-go/actor"
 )
 
+//CenterService
 type CenterService struct {
 	service.ServiceData
 	serviceGroups map[string]*ServiceGroup //所有服务 map[type]group
@@ -53,7 +54,6 @@ func (s *CenterService) OnStart(as *service.ActorService) {
 func (s *CenterService) Tick() {
 	s.Pid.Tell(&msgs.Tick{})
 }
-
 
 func (s *CenterService) OnTick(context service.Context) {
 	log.Info("CenterService tick")

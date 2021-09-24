@@ -18,7 +18,7 @@ type JsData struct {
 	Msg string `json:Msg`
 }
 
-func newAgent(conn network.Conn) network.Agent {
+func newAgent(conn network.TCPConn) network.Agent {
 	Client := new(Agent)
 	Client.conn = conn
 	return Client
@@ -26,7 +26,7 @@ func newAgent(conn network.Conn) network.Agent {
 
 //Agent
 type Agent struct {
-	conn      network.Conn
+	conn      network.TCPConn
 	msgHandle func(channel byte, msgId interface{}, data []byte)
 }
 

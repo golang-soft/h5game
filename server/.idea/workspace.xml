@@ -20,49 +20,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6f5e79f9-5338-43d3-94b3-94c7fbe09650" name="Default Changelist" comment="调整配置文件">
+      <change afterPath="$PROJECT_DIR$/src/Server/server/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Server/server/config_tcp_login.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/icon_diamond.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/icon_exp.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/icon_girl_0.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/icon_girl_1.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/icon_girl_2.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/icon_girl_3.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/icon_girl_4.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/icon_girl_5.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/icon_gold.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/sex_boy.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/user/sex_girl.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/assets/Texture/zjm_di.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ChessCardHall/settings/project.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Robot/robotTest/agent.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Robot/robotTest/agent.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Robot/robotTest/r_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Robot/robotTest/r_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Robot/robotTest/robot.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Robot/robotTest/robot.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/server/config_tcp_manager.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/server/config_tcp_manager.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Robot/robotTest/robotTest.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Robot/robotTest/robotTest.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/center/centerserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/center/centerserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/center/serviceNode.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/center/serviceNode.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Server/gate/gateserver.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/gate/gateserver.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameproto/gamecode.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameproto/gamecode.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameproto/gamemsg.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameproto/gamemsg.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameproto/login.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameproto/login.pb.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/gameproto/share.pb.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/gameproto/share.pb.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>Started EndpointManager</find>
-      <find>log.Debug(&quot;center OnStart ok!!&quot;)</find>
-      <find>OnStart ok!!</find>
-      <find>wait 3</find>
-      <find>flag</find>
-      <find>wait</find>
-      <find>testssss</find>
-      <find>OnStart ok</find>
-      <find>service.ServiceRun</find>
-      <find>ServiceRun</find>
-      <find>Starting Proto.Actor server</find>
-      <find>serviceIns</find>
-      <find>Started,</find>
-      <find>NewAgent fail</find>
-      <find>GetAgentActor</find>
-      <find>GateService.OnReceive</find>
-      <find>gate</find>
-      <find>game reg ok</find>
-      <find>center OnStart ok</find>
-      <find>NewAagentActorMsg</find>
-      <find>CenterService tick</find>
-      <find>center.OnAddService</find>
-      <find>GetServiceConfig</find>
-      <find>client</find>
-      <find>INetClient</find>
-      <find>ConnectGate</find>
-      <find>newAgent</find>
-      <find>NewAgent</find>
-      <find>EnterGame</find>
-      <find>OnMsgRecv</find>
-    </findStrings>
   </component>
   <component name="GOROOT" path="D:\Tools\go" />
   <component name="Git.Settings">
@@ -103,7 +92,7 @@
       <recent name="D:\project\h5game\server\src\Server\app" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.server-battle">
+  <component name="RunManager" selected="Go Build.go build robotTest/robotTest">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="server" />
       <working_directory value="$PROJECT_DIR$/../../../project/h5game/server/bin" />
@@ -114,19 +103,29 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build Server" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build robotTest.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="server" />
-      <working_directory value="$PROJECT_DIR$/src/Server" />
-      <kind value="PACKAGE" />
+      <working_directory value="$PROJECT_DIR$/src/Robot" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/Robot/robotTest/robotTest.go" />
       <package value="Server" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build robotTest/robotTest" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="server" />
-      <working_directory value="$PROJECT_DIR$/src/Server" />
+      <working_directory value="$PROJECT_DIR$/src/Robot" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/src/Robot/robotTest/robotTest.go" />
+      <package value="robotTest/robotTest" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build robot.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="server" />
+      <working_directory value="$PROJECT_DIR$/src/Robot" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/src/Server/server/server.go" />
+      <filePath value="$PROJECT_DIR$/src/Robot/robotTest/robot.go" />
       <package value="Server" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
@@ -185,20 +184,44 @@
       <directory value="$PROJECT_DIR$/src/Server/server" />
       <method v="2" />
     </configuration>
+    <configuration name="server-login" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="server" />
+      <working_directory value="$PROJECT_DIR$/src/Server/server" />
+      <go_parameters value="-i" />
+      <parameters value="--config=config_tcp_login.json" />
+      <kind value="DIRECTORY" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="Server" />
+      <directory value="$PROJECT_DIR$/src/Server/server" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server-single" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="server" />
+      <working_directory value="$PROJECT_DIR$/src/Server/server" />
+      <kind value="DIRECTORY" />
+      <package value="$PROJECT_DIR$/src/Server" />
+      <directory value="$PROJECT_DIR$/src/Server/server" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Go Build.server-gate" />
       <item itemvalue="Go Build.server-game" />
       <item itemvalue="Go Build.server-battle" />
+      <item itemvalue="Go Build.server-login" />
       <item itemvalue="Go Build.server-lobby" />
       <item itemvalue="Go Build.robot" />
-      <item itemvalue="Go Build.go build server.go" />
-      <item itemvalue="Go Build.go build Server" />
+      <item itemvalue="Go Build.server-single" />
+      <item itemvalue="Go Build.go build robotTest/robotTest" />
+      <item itemvalue="Go Build.go build robotTest.go" />
+      <item itemvalue="Go Build.go build robot.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build robotTest/robotTest" />
+        <item itemvalue="Go Build.server-single" />
+        <item itemvalue="Go Build.go build robotTest.go" />
         <item itemvalue="Go Build.server-lobby" />
-        <item itemvalue="Go Build.go build Server" />
-        <item itemvalue="Go Build.go build server.go" />
+        <item itemvalue="Go Build.go build robot.go" />
       </list>
     </recent_temporary>
   </component>
@@ -244,41 +267,91 @@
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state x="702" y="414" key="#GOROOT/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632393239723" />
-    <state x="410" y="146" width="1099" height="769" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632449485220">
+    <state x="410" y="146" width="1099" height="827" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1632470061724">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state x="410" y="146" width="1099" height="769" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632449485220" />
-    <state width="640" height="582" key="DebuggerActiveHint" timestamp="1632407803286">
+    <state x="410" y="146" width="1099" height="827" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632470061724" />
+    <state width="708" height="582" key="DebuggerActiveHint" timestamp="1632487250868">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="640" height="582" key="DebuggerActiveHint/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632407803286" />
+    <state width="708" height="582" key="DebuggerActiveHint/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632487250868" />
     <state x="687" y="196" key="FileChooserDialogImpl" timestamp="1632408863677">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state x="687" y="196" key="FileChooserDialogImpl/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632408863677" />
-    <state width="1867" height="281" key="GridCell.Tab.0.bottom" timestamp="1632451381054">
+    <state width="1867" height="291" key="GridCell.Tab.0.bottom" timestamp="1632487624776">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.bottom/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632451381054" />
-    <state width="1867" height="281" key="GridCell.Tab.0.center" timestamp="1632451381054">
+    <state width="1867" height="291" key="GridCell.Tab.0.bottom/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632487624776" />
+    <state width="1867" height="291" key="GridCell.Tab.0.center" timestamp="1632487624776">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.center/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632451381054" />
-    <state width="1867" height="281" key="GridCell.Tab.0.left" timestamp="1632451381054">
+    <state width="1867" height="291" key="GridCell.Tab.0.center/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632487624776" />
+    <state width="1867" height="291" key="GridCell.Tab.0.left" timestamp="1632487624776">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.left/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632451381054" />
-    <state width="1867" height="281" key="GridCell.Tab.0.right" timestamp="1632451381054">
+    <state width="1867" height="291" key="GridCell.Tab.0.left/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632487624776" />
+    <state width="1867" height="291" key="GridCell.Tab.0.right" timestamp="1632487624776">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="281" key="GridCell.Tab.0.right/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632451381054" />
+    <state width="1867" height="291" key="GridCell.Tab.0.right/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632487624776" />
     <state x="452" y="168" key="Vcs.Push.Dialog.v2" timestamp="1632450045068">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state x="452" y="168" key="Vcs.Push.Dialog.v2/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632450045068" />
-    <state x="677" y="395" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1632450961226">
+    <state x="589" y="174" width="742" height="650" key="find.popup" timestamp="1632488310555">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state x="677" y="395" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632450961226" />
+    <state x="589" y="174" width="742" height="650" key="find.popup/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632488310555" />
+    <state x="677" y="395" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1632465247692">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="677" y="395" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1632465247692" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/Robot/robotTest/robotTest.go</url>
+          <line>18</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/Server/login/loginserver.go</url>
+          <line>163</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/Robot/robotTest/robot.go</url>
+          <line>53</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/Server/center/centerserver.go</url>
+          <line>145</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/Server/login/loginserver.go</url>
+          <line>218</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/Server/login/loginserver.go</url>
+          <line>219</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/src/Robot/robotTest/robot.go</url>
+          <line>43</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/../../../workspace-go/pkg/mod/github.com/magicsea/ganet@v0.0.0-20200721080758-d33e58ea37d8/network/tcp_client.go</url>
+          <line>108</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

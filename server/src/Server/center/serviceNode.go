@@ -24,6 +24,8 @@ func (node *ServiceNode) UpdateService(up msgs.UploadService) {
 	node.state = up.State
 	node.tmpload = 0
 }
+
+//GetServiceLoad
 func (node *ServiceNode) GetServiceLoad() uint32 {
 	return node.load + node.tmpload
 }
