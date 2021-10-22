@@ -123,6 +123,7 @@ export default class NewClass extends cc.Component {
         //let level = vv.expToLevel(vv.userInfo.exp);
         let level = vv.userInfo.level
         this.level.string = "Lv." + level;
+        
         this.grade.spriteFrame = level > 99 ? this.grades[9] : this.grades[Math.floor(level / 10)];
         this.gold.string = vv.virtualCoinToCN(vv.userInfo.gold);
         this.diamond.string = vv.virtualCoinToCN(vv.userInfo.diamond);

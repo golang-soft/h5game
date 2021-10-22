@@ -15,9 +15,9 @@
 		"proto":"json",
 		"_comment": "配置静态地址,value空表示本进程",
 		"remote":{
-			"center":"127.0.0.1:8090",
-			"session":"127.0.0.1:8091",
-			"lobby":"127.0.0.1:8092"
+			"center":"10.10.20.16:8090",
+			"session":"10.10.20.16:8091",
+			"lobby":"10.10.20.16:8092"
 		},
 
 		"_comment": "当前进程启动的所有服务配置,remoteAddr空表示本进程",
@@ -27,7 +27,7 @@
 				"serviceType":"login",
 				"remoteAddr":"",
 				"conf":{
-					"httpAddr":"127.0.0.1:9900"
+					"httpAddr":"10.10.20.16:9900"
 				}
 			}
 		]

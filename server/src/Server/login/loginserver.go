@@ -60,8 +60,8 @@ func (s *LoginService) OnStart(as *service.ActorService) {
 
 }
 
-func doCreateAcc(acc,pwd string)  error {
-	log.Info("doCreateAcc:%s,%s",acc,pwd)
+func doCreateAcc(acc, pwd string) error {
+	log.Info("doCreateAcc:%s,%s", acc, pwd)
 	if len(acc) < 1 || len(pwd) < 1 {
 		return errors.New(fmt.Sprintf("账号密码都不能为空"))
 	}
@@ -89,10 +89,9 @@ func doCreateAcc(acc,pwd string)  error {
 	}
 
 	//设置索引
-	if err:=db.GetRedisGame().Set(key, id, 0);err!=nil {
+	if err := db.GetRedisGame().Set(key, id, 0); err != nil {
 		return nil
 	}
-
 
 	return nil
 }
@@ -117,7 +116,7 @@ func regist(w http.ResponseWriter, req *http.Request) {
 	}
 
 	log.Info("reg account:acc=%s,pwd=%s", acc, pwd)
-	if err:= doCreateAcc(acc,pwd);err!=nil {
+	if err := doCreateAcc(acc, pwd); err != nil {
 		registBackError(w, err.Error(), err)
 	}
 	w.Write([]byte("success"))
@@ -164,8 +163,8 @@ func login(w http.ResponseWriter, req *http.Request) {
 	r, err := db.GetRedisGame().Get(key).Result()
 	if err != nil {
 		if autoCreateAccount {
-			createErr := doCreateAcc(acc,pwd)
-			if createErr!=nil {
+			createErr := doCreateAcc(acc, pwd)
+			if createErr != nil {
 				loginBackError(w, "auto create error:"+key, err)
 				return
 			}
@@ -240,6 +239,7 @@ func onUserLogin(id uint64) (*gameproto.UserLoginResult, error) {
 	return &gameproto.UserLoginResult{Uid: uint32(id), GateTcpAddr: gateAddr, GateWsAddr: gateWsAddr, Key: key, Result: int32(msgs.OK)}, nil
 }
 
+//
 func GetServiceValue(key string, values []*msgs.ServiceValue) string {
 	for _, v := range values {
 		if v.Key == key {

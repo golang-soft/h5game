@@ -9,6 +9,7 @@ import (
 	"github.com/magicsea/ganet/log"
 )
 
+//
 func InitBev() {
 	mapTrees = make(map[string]*b3core.BehaviorTree)
 	bevMainTree = CreateBevTree("b3.json")
@@ -17,6 +18,7 @@ func InitBev() {
 //主树
 var bevMainTree *b3core.BehaviorTree
 
+//
 func GetBevTree() *b3core.BehaviorTree {
 	return bevMainTree
 }
@@ -24,6 +26,7 @@ func GetBevTree() *b3core.BehaviorTree {
 //创建一个行为树
 var mapTrees map[string]*b3core.BehaviorTree
 
+//
 func CreateBevTree(name string) *b3core.BehaviorTree {
 	b, ok := mapTrees[name]
 	if ok {

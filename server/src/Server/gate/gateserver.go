@@ -170,6 +170,7 @@ func (s *GateService) OnKick(context service.Context) {
 	}
 }
 
+//
 func (s *GateService) OnDestory() {
 
 }

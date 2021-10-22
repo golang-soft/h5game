@@ -11,6 +11,7 @@ import (
 	"sync"
 )
 
+//
 type RemoteClient struct {
 	pid   *actor.PID
 	usage string
@@ -37,6 +38,7 @@ func (client *RemoteClient) AskCB(args interface{}, respTo *actor.PID) {
 	client.pid.Request(args, respTo)
 }
 
+//
 func (client *RemoteClient) GetActorPID() *actor.PID {
 	return client.pid
 }

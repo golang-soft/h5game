@@ -1,7 +1,7 @@
 {
 	"ver":"1.0",
 	"redis":{
-		"addr":"127.0.0.1:6389",
+		"addr":"10.10.20.16:6389",
 		"password":"",
 		"poolsize":10,
 		"dbs":[0,1,2,3,4]
@@ -14,16 +14,16 @@
 		},
 		"_comment": "配置静态地址,value空表示本进程",
 		"remote":{
-			"center":"127.0.0.1:8090",
-			"session":"127.0.0.1:8091",
-			"lobby":"127.0.0.1:8092"
+			"center":"10.10.20.16:8090",
+			"session":"10.10.20.16:8091",
+			"lobby":"10.10.20.16:8092"
 		},
 		"_comment": "当前进程启动的所有服务配置,remoteAddr空表示本进程",
 		"local":[
 			{
 				"serviceName":"center",
 				"serviceType":"center",
-				"remoteAddr":"127.0.0.1:8090"
+				"remoteAddr":"10.10.20.16:8090"
 			}
 		]
 	}

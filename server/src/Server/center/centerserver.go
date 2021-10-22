@@ -29,7 +29,7 @@ func Type() string {
 
 //以下为接口函数
 func (s *CenterService) OnReceive(context service.Context) {
-	log.Debug("center.OnReceive:%v", context.Message())
+	log.Info("center.OnReceive:%v", context.Message())
 
 }
 
@@ -38,6 +38,7 @@ func (s *CenterService) OnInit() {
 	s.serviceAll = make(map[string]*ServiceNode)
 }
 
+//
 func (s *CenterService) OnStart(as *service.ActorService) {
 
 	//as.RegisterMsg(reflect.TypeOf(&msgs.RemoveService{}), s.OnRemoveService)  //解注册服务器

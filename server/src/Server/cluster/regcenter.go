@@ -39,7 +39,7 @@ import (
 // 	}()
 
 // }
-
+//
 func UpdateServiceLoad(serviceName string, load uint32, state msgs.ServiceState) {
 	log.Debug("%v UpdateServiceLoad %v-%v", serviceName, load, state)
 
