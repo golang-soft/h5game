@@ -21,7 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6f5e79f9-5338-43d3-94b3-94c7fbe09650" name="Default Changelist" comment="同步一下">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Server/gate/agentActor.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/Server/gate/agentActor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/config.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RockGO" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
@@ -238,6 +238,16 @@
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6f5e79f9-5338-43d3-94b3-94c7fbe09650" name="Default Changelist" comment="同步一下" />
+      <created>1636462380788</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636462380788</updated>
+    </task>
+    <servers />
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
@@ -284,26 +294,26 @@
       <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state x="617" y="160" width="546" height="605" key="FileChooserDialogImpl/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1634630626329" />
-    <state width="1867" height="285" key="GridCell.Tab.0.bottom" timestamp="1634889105285">
+    <state width="1867" height="285" key="GridCell.Tab.0.bottom" timestamp="1635155376555">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="285" key="GridCell.Tab.0.bottom/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1634889105285" />
-    <state width="1867" height="285" key="GridCell.Tab.0.center" timestamp="1634889105285">
+    <state width="1867" height="285" key="GridCell.Tab.0.bottom/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1635155376555" />
+    <state width="1867" height="285" key="GridCell.Tab.0.center" timestamp="1635155376555">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="285" key="GridCell.Tab.0.center/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1634889105285" />
-    <state width="1867" height="285" key="GridCell.Tab.0.left" timestamp="1634889105285">
+    <state width="1867" height="285" key="GridCell.Tab.0.center/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1635155376555" />
+    <state width="1867" height="285" key="GridCell.Tab.0.left" timestamp="1635155376555">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="285" key="GridCell.Tab.0.left/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1634889105285" />
-    <state width="1867" height="285" key="GridCell.Tab.0.right" timestamp="1634889105285">
+    <state width="1867" height="285" key="GridCell.Tab.0.left/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1635155376555" />
+    <state width="1867" height="285" key="GridCell.Tab.0.right" timestamp="1635155376555">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state width="1867" height="285" key="GridCell.Tab.0.right/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1634889105285" />
-    <state x="452" y="168" key="Vcs.Push.Dialog.v2" timestamp="1634888360263">
+    <state width="1867" height="285" key="GridCell.Tab.0.right/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1635155376555" />
+    <state x="452" y="168" key="Vcs.Push.Dialog.v2" timestamp="1635148060367">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
-    <state x="452" y="168" key="Vcs.Push.Dialog.v2/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1634888360263" />
+    <state x="452" y="168" key="Vcs.Push.Dialog.v2/1920.0.1920.999/0.0.1920.999@0.0.1920.999" timestamp="1635148060367" />
     <state x="589" y="174" width="742" height="650" key="find.popup" timestamp="1632488310555">
       <screen x="0" y="0" width="1920" height="999" />
     </state>
@@ -325,16 +335,6 @@
           <url>file://$PROJECT_DIR$/src/Server/login/loginserver.go</url>
           <line>162</line>
           <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/Server/login/loginserver.go</url>
-          <line>217</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/src/Server/login/loginserver.go</url>
-          <line>218</line>
-          <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
           <url>file://$PROJECT_DIR$/src/Robot/robotTest/robot.go</url>

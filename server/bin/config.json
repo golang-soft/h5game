@@ -1,7 +1,7 @@
 {
 	"ver":"1.0",
 	"redis":{
-		"addr":"127.0.0.1:6389",
+		"addr":"10.10.20.16:6389",
 		"password":"",
 		"poolsize":10,
 		"dbs":[0,1,2,3,4]
@@ -31,18 +31,18 @@
 					"serviceType":"login",
 					"remoteAddr":"",
 					"conf":{
-							"httpAddr":"127.0.0.1:9900"
+							"httpAddr":"10.10.20.16:9900"
 					}
 			},
 			{
 					"serviceName":"center",
 					"serviceType":"center",
-					"remoteAddr":"127.0.0.1:8090"
+					"remoteAddr":"10.10.20.16:8090"
 			},
 			{
 					"serviceName":"lobby",
 					"serviceType":"lobby",
-					"remoteAddr":"127.0.0.1:8091"
+					"remoteAddr":"10.10.20.16:8091"
 			},
 			{
 					"serviceName":"session",
@@ -52,27 +52,16 @@
 			{
 					"serviceName":"gate1",
 					"serviceType":"gate",
-					"remoteAddr":"127.0.0.1:8070",
+					"remoteAddr":"10.10.20.16:8070",
 					"conf":{
 							"MaxConnNum":1000,
 							"WsAddr":":7201",
-							"WsAddrOut":"127.0.0.1:7201",
+							"WsAddrOut":"10.10.20.16:7201",
 							"TcpAddr":":7200",
-							"TcpAddrOut":"127.0.0.1:7200"
+							"TcpAddrOut":"10.10.20.16:7200"
 					}
 			},
-			{
-					"serviceName":"gate2",
-					"serviceType":"gate",
-					"remoteAddr":"127.0.0.1:8072",
-					"conf":{
-						"MaxConnNum":1000,
-						"WsAddr":":7203",
-						"WsAddrOut":"127.0.0.1:7203",
-						"TcpAddr":":7202",
-						"TcpAddrOut":"127.0.0.1:7202"
-					}
-			},
+
 			{
 					"serviceName":"game1",
 					"serviceType":"game",
